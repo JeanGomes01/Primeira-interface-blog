@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  font-weight: bold;
+  word-spacing: 1rem; /* unidade de medida rem*/
+  font-size: 0.8rem;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  border:6px solid black;
+  margin: 0px 0px 0px 100px;
+  width: 500px;
+  height: 400px;
+  background-image: linear-gradient(white, gray, black);
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: black;
+}
+a:visited {
+  color: rgb(8, 8, 20);
+}
+a:active {
+  color: olivedrab;
+}
+figure {
+  width: 200px;
+  height: 200px;
+  background-color: White;
+  border:solid:orange 0.1rem;
+  box-shadow: orange 0.2rem 0.2rem 0.2rem;
+}
+h1 {
+  text-align: center;
+}
+img {
+  border:1px solid black;
+  width: 200px;
+  height: 200px;
+}
